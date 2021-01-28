@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+</head>
+<body>
+<div>
+    <div>Список пользователей</div>
+    {{#characters}}
+        <div>
+            <b>{{pilot_id}}</b>
+            <b>{{main_pilot_id}}</b>
+            <span>{{main_pilot_name}}</span>
+            <span>{{pilot_name}}</span>
+        </div>
+    {{/characters}}
+</div>
+</body>
+</html>
